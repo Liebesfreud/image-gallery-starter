@@ -93,17 +93,17 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        Thank you to{' '}
+        属于我们的{' '}
         <a
           href="https://vercel.com/cherrylover/notion-b/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Jiang jiwei
+          秘密小屋
         </a>
         ,{' '}
-        for the pictures.
+        ！！！
       </footer>
     </>
   )
