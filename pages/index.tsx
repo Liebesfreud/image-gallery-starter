@@ -30,7 +30,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Jiang jiwei ShutterShowcase</title>
+        <title>PLUS Moments</title>
         <meta
           property="og:image"
           content="https://nextjsconf-pics.vercel.app/og-image.png"
@@ -59,10 +59,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </div>
             <Logo />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              Jiang jiwei ShutterShowcase
+              PLUS回忆小屋
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              透过镜头，发现世界的美
+              在一起的1000天
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
